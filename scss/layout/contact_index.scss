@@ -1,0 +1,112 @@
+.contact-anima {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../assets/img/mantencion.jpg");
+    width: 100%;
+    height: 31.25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        color: white;
+        font-size: 60px;
+        font-family: $texto-titulo;
+    }
+}
+
+.form-class {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 1.875rem;
+    gap: .9375rem;
+
+    .contact-text {
+        h3 {
+            text-align: center;
+            font-family: $texto-titulo;
+            background-color: #F21313;
+            border-radius: 20px 0 20px 0;
+            color: $color-parrafo;
+            margin-left: .5rem;
+        }
+
+        p {
+            margin-left: 1.25rem;
+            font-family: $text-parrafos;
+        }
+    }
+}
+
+.div-formulario {
+    font-family: $text-parrafos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.formulario-row {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        font-family: $text-parrafos;
+    }
+
+    input {
+        width: 25rem;
+        height: 1.875rem;
+        border-radius: .3125rem;
+        background-color: #E5DFDE;
+        border-color: rgba(177, 165, 165, 0.071);
+
+        &:focus {
+            outline: solid 1px #F21313;
+        }
+    }
+}
+
+.formulario-row1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+
+    textarea {
+        border-radius: .3125rem;
+        background-color: #E5DFDE;
+        border-color: rgba(177, 165, 165, 0.071);
+
+        &:focus {
+            outline: solid 1px #F21313;
+        }
+
+    }
+}
+.boton2 {
+    justify-self: center;
+    background-color: #F21313;
+    width: 6.25rem;
+    height: 1.5625rem;
+    color: #E5DFDE;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: none;
+    box-shadow: 0 3px 1px -2px #ccc, 0 2px 2px 0 #ccc, 0 1px 5px 0 #ccc;
+
+    &:active {
+        box-shadow: 0 4px 2px -3px #ccc, 0 4px 5px 1px #ccc, 0 2px 7px 1px #ccc;
+}
+}
+
+.contact-section {
+    padding: 10px;
+}
+
