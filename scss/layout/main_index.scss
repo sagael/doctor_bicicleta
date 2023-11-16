@@ -24,11 +24,11 @@
     h2{
         font-size: 3.125rem;
         font-family: $texto-titulo;
-        color: #D91A2A;
+        color: $color-titulos;
     }
     p{
         font-size: 25px;
-        color: #F21313;
+        color: $color-parrafo2;
     }
 }
 .services{
@@ -74,7 +74,7 @@ margin-bottom: 30px;
     font-size: 1.875rem;
 }
 .boton{
-    background-color: #F21313;
+    background-color: $color-parrafo2;
     width: 7.5rem;
     height: 2.5rem;
     border-radius: 10px;
