@@ -1,0 +1,22 @@
+@media screen and (max-width:320px){
+    .style-navbar{
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .services-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            display: none;
+        }
+    }
+}
