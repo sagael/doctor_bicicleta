@@ -114,7 +114,7 @@ p {
   display: flex;
   justify-content: center;
   gap: 2.5rem;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .services3 img {
   width: 400px;
@@ -453,6 +453,13 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+  .banner {
+    display: none;
+  }
+  .index-image img {
+    width: 300px;
+    height: 300px;
+  }
   .style-navbar {
     font-size: 18px;
     display: flex;
@@ -462,13 +469,66 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .services h2 {
+    font-size: 25px;
+    width: 200px;
+  }
+  .meet-service h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .meet-service p {
+    font-size: 18px;
+  }
   .services-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
   }
   .services-content img {
+    display: none;
+  }
+  .services-list ul li {
+    font-size: 15px;
+  }
+  .precio {
+    font-size: 20px;
+  }
+  .services3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services3 img {
+    width: 250px;
+    height: 250px;
+  }
+  .services3 span {
+    font-size: 0.9375rem;
+  }
+  .footer-style {
+    font-size: 12px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-style img {
+    width: 18px;
+    height: 18px;
+  }
+  .ubicacion {
+    font-size: 13px;
+  }
+  .ubicacion h4 {
+    display: none;
+  }
+  .ubicacion ul li {
+    display: none;
+  }
+  .image-foot {
     display: none;
   }
 }

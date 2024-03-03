@@ -1,22 +1,110 @@
-@media screen and (max-width:320px){
-    .style-navbar{
+@media screen and (max-width:320px) {
+//esto pertenece al header
+    .banner {
+        display: none;
+
+    }
+
+    .index-image {
+        img {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+
+    .style-navbar {
         font-size: 18px;
         display: flex;
         flex-direction: column;
     }
 
-    .services{
+//aqui inicia el estilo para el main index
+
+    .services {
         display: flex;
         flex-direction: column;
-        
+        h2{
+            font-size: 25px ;
+            width: 200px;
+        }
     }
-    .services-content{
+    .meet-service {
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .services-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        img{
+        padding: 10px;
+
+        img {
             display: none;
         }
+    }
+.services-list{
+        ul{
+            li{
+                font-size: 15px;
+            }
+        }
+    }
+.precio{
+    font-size: 20px;
+}
+
+    .services3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+
+        span {
+            font-size: .9375rem;
+        }
+    }
+//aqui empieza el estilo del footer
+    .footer-style {
+        font-size: 12px;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img{
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+    .ubicacion {
+        font-size: 13px;
+
+        h4 {
+            display: none;
+        }
+
+        ul {
+            li {
+                display: none;
+            }
+        }
+    }
+
+    .image-foot {
+        display: none;
     }
 }
