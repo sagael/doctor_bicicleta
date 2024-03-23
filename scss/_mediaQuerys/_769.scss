@@ -1,0 +1,78 @@
+@media (width >=769px) {
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .services-content {
+        img {
+
+            width: 600px;
+            height: 300px;
+            border-radius: 8px;
+
+            &:hover {
+                box-shadow: 7px 16px 27px -11px rgba(0, 0, 0, 0.75);
+            }
+        }
+    }
+
+    .services3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    //aqui empieza el estilo de about us
+
+    .about{
+        display: flex;
+        h2{
+            font-size: 35px;
+        }
+    }
+    .pick-doctor{
+       h2 {
+        font-size: 35px;
+       }
+    }
+    .our-services{
+        display: flex;
+        }
+    .carrusel-card{
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+        height: 400px;
+    }
+
+    //aqui empieza el estilo de contactanos
+    .form-class {
+        flex-direction: column;
+    }
+
+    .formulario-row,
+    .formulario-row1 {
+        width: 100%;
+    }
+
+    .formulario-row input,
+    .formulario-row textarea {
+        width: calc(100% - 20px);
+    }
+
+    .map {
+        iframe {
+            margin-top: 20px;
+            width: 100%;
+            overflow-x: hidden;
+        }
+    }
+
+    .footer-style {
+        font-size: 15px;
+    }
+
+    .ubicacion {
+        font-size: 15px;
+    }
+}

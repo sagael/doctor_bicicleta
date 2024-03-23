@@ -270,13 +270,15 @@ footer {
   margin-top: 1.875rem;
   gap: 0.9375rem;
 }
+.form-class .contact-text {
+  padding: 8px;
+}
 .form-class .contact-text h3 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   background-color: #F21313;
   border-radius: 20px 0 20px 0;
   color: #F2F2F2;
-  margin-left: 0.5rem;
 }
 .form-class .contact-text p {
   margin-left: 1.25rem;
@@ -368,12 +370,13 @@ footer {
 .about {
   display: flex;
   padding: 1.25rem;
+  width: 100%;
+  height: 100%;
 }
 .about h2 {
   text-align: center;
   width: 100%;
   height: 80px;
-  border-radius: 15px;
   font-size: 3.75rem;
   padding-right: 1.5625rem;
   font-family: "Poppins", sans-serif;
@@ -413,7 +416,7 @@ footer {
 }
 .our-services p {
   font-family: "Poppins", sans-serif;
-  font-size: 1.125rem;
+  font-size: 20px;
   color: #000000;
 }
 
@@ -452,7 +455,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (width <= 425px) {
   .banner {
     display: none;
   }
@@ -464,6 +467,10 @@ footer {
     font-size: 18px;
     display: flex;
     flex-direction: column;
+  }
+  .index-image {
+    width: 100%;
+    height: 300px;
   }
   .services {
     display: flex;
@@ -508,18 +515,94 @@ footer {
   .services3 span {
     font-size: 0.9375rem;
   }
+  .contact-anima {
+    width: 100%;
+    height: 300px;
+  }
+  .contact-anima h2 {
+    font-size: 2.5rem;
+  }
+  .contact-text h3 {
+    font-size: 1.25rem;
+    margin-left: 0;
+  }
+  .contact-text p {
+    font-size: 15px;
+  }
+  .form-class {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+  .formulario-row {
+    width: 300px;
+  }
+  .formulario-row input {
+    width: 300px;
+  }
+  .formulario-row1 {
+    width: 300px;
+  }
+  .formulario-row1 textarea {
+    width: 300px;
+  }
+  .map {
+    display: flex;
+    justify-content: center;
+  }
+  .map iframe {
+    width: 300px;
+    height: 400px;
+  }
+  .meet-us {
+    width: 100%;
+    height: 300px;
+  }
+  .meet-us h2 {
+    font-size: 2.5rem;
+  }
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about img {
+    width: 17.5rem;
+    height: 28.125rem;
+  }
+  .about div h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .about div p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .pick-doctor h2 {
+    font-size: 30px;
+  }
+  .pick-doctor p {
+    font-size: 15px;
+  }
+  .our-services {
+    display: flex;
+    flex-direction: column;
+  }
+  .carrusel-card {
+    display: none;
+  }
   .footer-style {
     font-size: 12px;
     padding: 8px;
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .footer-style img {
     width: 18px;
     height: 18px;
   }
   .ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 13px;
   }
   .ubicacion h4 {
@@ -530,6 +613,231 @@ footer {
   }
   .image-foot {
     display: none;
+  }
+}
+@media (width <= 768px) {
+  .banner {
+    justify-content: center;
+    font-size: 0.875rem;
+  }
+  img {
+    width: 1.25rem;
+    height: 20px;
+  }
+  .style-navbar {
+    flex-direction: column;
+    padding: 10px;
+    font-size: 0.875rem;
+  }
+  .index-image {
+    width: 100%;
+    height: 300px;
+  }
+  .index-image img {
+    width: 300px;
+    height: 300px;
+  }
+  .meet-service h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .meet-service p {
+    font-size: 18px;
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-content img {
+    width: 37.5rem;
+    height: 31.25rem;
+  }
+  .services-content h2 {
+    font-size: 30px;
+  }
+  .services-content p {
+    font-size: 18px;
+  }
+  .precio {
+    font-size: 25px;
+  }
+  .services3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-anima {
+    width: 100%;
+    height: 300px;
+  }
+  .contact-anima h2 {
+    font-size: 2.5rem;
+  }
+  .contact-text h3 {
+    font-size: 1.25rem;
+    margin-left: 0;
+  }
+  .contact-text p {
+    font-size: 15px;
+  }
+  .form-class {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+  .formulario-row {
+    width: 300px;
+  }
+  .formulario-row input {
+    width: 300px;
+  }
+  .formulario-row1 {
+    width: 300px;
+  }
+  .formulario-row1 textarea {
+    width: 300px;
+  }
+  .map {
+    display: flex;
+    justify-content: center;
+  }
+  .map iframe {
+    width: 500px;
+    height: 300px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-style p {
+    font-size: 14px;
+  }
+  .footer-style img {
+    width: 20px;
+    height: 20px;
+  }
+  .ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 13px;
+  }
+  .ubicacion h4 {
+    display: none;
+  }
+  .ubicacion ul li {
+    display: none;
+  }
+  .image-foot {
+    display: none;
+  }
+}
+@media (width <= 767px) {
+  .services-content img {
+    width: 25rem;
+    height: 12.5rem;
+  }
+  .meet-us {
+    width: 100%;
+    height: 300px;
+  }
+  .meet-us h2 {
+    font-size: 2.5rem;
+  }
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about img {
+    width: 17.5rem;
+    height: 28.125rem;
+  }
+  .about div h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .about div p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .pick-doctor h2 {
+    font-size: 30px;
+  }
+  .pick-doctor p {
+    font-size: 15px;
+  }
+  .our-services {
+    display: flex;
+    flex-direction: column;
+  }
+  .carrusel-card {
+    display: none;
+  }
+}
+@media (width >= 769px) {
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .services-content img {
+    width: 600px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  .services-content img:hover {
+    box-shadow: 7px 16px 27px -11px rgba(0, 0, 0, 0.75);
+  }
+  .services3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about {
+    display: flex;
+  }
+  .about h2 {
+    font-size: 35px;
+  }
+  .pick-doctor h2 {
+    font-size: 35px;
+  }
+  .our-services {
+    display: flex;
+  }
+  .carrusel-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 400px;
+  }
+  .form-class {
+    flex-direction: column;
+  }
+  .formulario-row,
+  .formulario-row1 {
+    width: 100%;
+  }
+  .formulario-row input,
+  .formulario-row textarea {
+    width: calc(100% - 20px);
+  }
+  .map iframe {
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .footer-style {
+    font-size: 15px;
+  }
+  .ubicacion {
+    font-size: 15px;
   }
 }
 

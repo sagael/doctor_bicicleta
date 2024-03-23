@@ -20,12 +20,13 @@
 .about {
     display: flex;
     padding: 1.25rem;
+    width: 100%;
+    height: 100%;
 
     h2 {
         text-align: center;
         width: 100%;
         height: 80px;
-        border-radius: 15px;
         font-size: 3.75rem;
         padding-right: 1.5625rem;
         font-family: $texto-titulo;
@@ -71,7 +72,7 @@
 
     p {
         font-family: $text-parrafos;
-        font-size: 1.125rem;
+        font-size: 20px;
         color: $color-parrafo2;
     }
 }
