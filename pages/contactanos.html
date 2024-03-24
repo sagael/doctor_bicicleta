@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doctor Bicicleta | Contactos</title>
     <link rel="stylesheet" href="../css/style.css">
-</head>
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('eUAnXa6a0TxzVKp_6')
+</script>
 
 <body>
     <header>
@@ -39,8 +44,8 @@
                 <p>¿Deseas conocer todos nuestros servicios?</p>
                 <p>En Doctor bicicleta nos preocupamos por tu bicicleta y tus comentarios</p>
             </div>
-            <div class="formulario">
-                <form class="form-fomulario" action="198c68e1f084c7462016771f853510f1" method="POST">
+           <!-- <div class="formulario">
+                <form class="form-fomulario" action="" method="">
                     <div class="div-formulario">
                         <div class="formulario-row">
                             <label for="">Nombre:</label>
@@ -60,6 +65,31 @@
                         </div>
                         <button class="boton2">Enviar</button>
                     </div>
+                    </div>
+                    -->
+
+                    <div class="formulario">
+                        <form id="form" class="form-fomulario" action="" method="">
+                            <div class="div-formulario">
+                                <div class="formulario-row">
+                                    <label for="from_name">Nombre:</label>
+                                    <input type="text" name="from_name" id="from_name" placeholder="Ingrese Nombre" required>
+                                </div>
+                                <div class="formulario-row">
+                                    <label for="email_id">Correo:</label>
+                                    <input type="email" name="email_id" id="email_id" placeholder="Ingrese Correo" required>
+                                </div>
+                                <div class="formulario-row">
+                                    <label for="to_name">Asunto:</label>
+                                    <input type="text" name="to_name" id="to_name" placeholder="Asunto" required>   
+                                </div>
+                                <div class="formulario-row1">
+                                    <label for="message">Mensaje:</label>
+                                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Escriba su mensaje aquí" required></textarea>
+                                </div>
+                                <input type="submit" class="boton2"></input>
+                            </div>
+                        </form>
                     </div>
                     <div class="contact-section">
                         <div>
@@ -106,6 +136,7 @@
             <img src="https://i.postimg.cc/85HFjgxw/doctor-bicicleta.jpg" alt="">
         </div>
     </footer>
+    <script src="../main.js"></script>
 </body>
 
 </html>
