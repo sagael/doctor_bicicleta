@@ -6,24 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doctor Bicicleta | Contactos</title>
     <link rel="stylesheet" href="../css/style.css">
-    <script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-<script type="text/javascript">
-  emailjs.init('eUAnXa6a0TxzVKp_6')
-</script>
+    <script type="text/javascript">
+        emailjs.init('eUAnXa6a0TxzVKp_6')
+    </script>
 
 <body>
     <header>
         <div class="banner">
             <p>Siguenos</p>
-            <a href=""><img src="https://i.postimg.cc/MZ9Mwx7p/instagram2png.png" alt=""></a> 
-            <a href=""><img src="https://i.postimg.cc/d1HqbsbM/whatsapp.png" alt=""></a> 
+            <a href=""><img src="https://i.postimg.cc/MZ9Mwx7p/instagram2png.png" alt=""></a>
+            <a href=""><img src="https://i.postimg.cc/d1HqbsbM/whatsapp.png" alt=""></a>
             <p>Escribenos al whatsapp (+56)9 8545 2859</p>
         </div>
         <div class="style-navbar">
             <div>
-                <img src="https://i.postimg.cc/85HFjgxw/doctor-bicicleta.jpg" alt=""> 
+                <img src="https://i.postimg.cc/85HFjgxw/doctor-bicicleta.jpg" alt="">
             </div>
             <ul class="navbar">
                 <li>
@@ -44,71 +43,51 @@
                 <p>¿Deseas conocer todos nuestros servicios?</p>
                 <p>En Doctor bicicleta nos preocupamos por tu bicicleta y tus comentarios</p>
             </div>
-           <!-- <div class="formulario">
-                <form class="form-fomulario" action="" method="">
+            <div class="formulario">
+                <form id="form" class="form-fomulario" action="" method="">
                     <div class="div-formulario">
                         <div class="formulario-row">
-                            <label for="">Nombre:</label>
-                            <input type="text" placeholder="Ingrese Nombre" required>
+                            <label for="from_name">Nombre:</label>
+                            <input type="text" name="from_name" id="from_name" placeholder="Ingrese Nombre" required>
                         </div>
                         <div class="formulario-row">
-                            <label for="">Correo:</label>
-                            <input type="email" placeholder="Ingrese Correo" required>
+                            <label for="email_id">Correo:</label>
+                            <input type="email" name="email_id" id="email_id" placeholder="Ingrese Correo" required>
                         </div>
                         <div class="formulario-row">
-                            <label for="">Asunto:</label>
-                            <input type="text" placeholder="Asunto" required>   
+                            <label for="to_name">Asunto:</label>
+                            <input type="text" name="to_name" id="to_name" placeholder="Asunto" required>
                         </div>
                         <div class="formulario-row1">
-                            <form action="">Mensaje</form>
-                            <textarea name="" cols="30" rows="10" placeholder=""></textarea>
+                            <label for="message">Mensaje:</label>
+                            <textarea name="message" id="message" cols="30" rows="10"
+                                placeholder="Escriba su mensaje aquí" required></textarea>
                         </div>
-                        <button class="boton2">Enviar</button>
+                        <input type="submit" class="boton2"></input>
                     </div>
-                    </div>
-                    -->
-
-                    <div class="formulario">
-                        <form id="form" class="form-fomulario" action="" method="">
-                            <div class="div-formulario">
-                                <div class="formulario-row">
-                                    <label for="from_name">Nombre:</label>
-                                    <input type="text" name="from_name" id="from_name" placeholder="Ingrese Nombre" required>
-                                </div>
-                                <div class="formulario-row">
-                                    <label for="email_id">Correo:</label>
-                                    <input type="email" name="email_id" id="email_id" placeholder="Ingrese Correo" required>
-                                </div>
-                                <div class="formulario-row">
-                                    <label for="to_name">Asunto:</label>
-                                    <input type="text" name="to_name" id="to_name" placeholder="Asunto" required>   
-                                </div>
-                                <div class="formulario-row1">
-                                    <label for="message">Mensaje:</label>
-                                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Escriba su mensaje aquí" required></textarea>
-                                </div>
-                                <input type="submit" class="boton2"></input>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="contact-section">
-                        <div>
-                            <img src="https://i.postimg.cc/Y0CvFyH7/correo-r.png" alt="">
-                        </div>
-                        <p>info@doctorbicicleta.cl</p>
-                        <div>
-                            <img src="https://i.postimg.cc/zfkDkSpG/telefono-r.png" alt="">
-                        </div>
-                        <p>+56 9 85452859</p>
-                        <p>2 26722984</p>
-                        <div class="map">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.7111839693935!2d-70.55631722440269!3d-33.430773373397216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ce5f7a409a99%3A0x99b0d12ecd1ec962!2sAv%20Francisco%20Bilbao%207499%2C%207850006%20Las%20Condes%2C%20La%20Reina%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1695063952654!5m2!1ses!2scl"
-                                width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
+                </form>
+            </div>
+            <div class="contact-section">
+                <div>
+                    <img src="https://i.postimg.cc/Y0CvFyH7/correo-r.png" alt="">
+                </div>
+                <p>info@doctorbicicleta.cl</p>
+                <div>
+                    <img src="https://i.postimg.cc/zfkDkSpG/telefono-r.png" alt="">
+                </div>
+                <p>+56 9 85452859</p>
+                <p>2 26722984</p>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.7111839693935!2d-70.55631722440269!3d-33.430773373397216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ce5f7a409a99%3A0x99b0d12ecd1ec962!2sAv%20Francisco%20Bilbao%207499%2C%207850006%20Las%20Condes%2C%20La%20Reina%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1695063952654!5m2!1ses!2scl"
+                        width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </section>
+        <div class="whatsapp-button">
+            <a href="https://wa.me/56985452859"><img src="https://i.postimg.cc/DZYBhPP7/whatsapp2.png" alt="Escríbenos"></a>
+          </div>
     </main>
     <footer>
         <div class="footer-style">

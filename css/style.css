@@ -840,5 +840,21 @@ footer {
     font-size: 15px;
   }
 }
+.whatsapp-button {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.whatsapp-button img {
+  width: 4.0625rem;
+  height: 4.0625rem;
+}
+.whatsapp-button img:hover {
+  scale: 1.08;
+}
 
 /*# sourceMappingURL=style.css.map */

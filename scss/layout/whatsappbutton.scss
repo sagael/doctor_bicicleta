@@ -1,0 +1,17 @@
+.whatsapp-button{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    img{
+    width: 4.0625rem;
+    height: 4.0625rem;
+        &:hover{
+            scale: (1.08);
+           
+        }
+    }
+}
